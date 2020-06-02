@@ -16,7 +16,7 @@ namespace Alice
                 string text1 = text.Substring(0, strInd);
                 string text2 = text.Substring(strInd+ userInput.Length);
                 Console.WriteLine(text1 + text2);
-               Console.WriteLine("True");
+               Console.WriteLine("True-ish");
             }
         }
     }
